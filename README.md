@@ -4,6 +4,7 @@
 - Jordi Cervera
 - Alvaro Silva
 - Jorgre Cuesta
+- Martí Rabella
 
 Objectius
 
