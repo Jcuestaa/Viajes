@@ -5,7 +5,7 @@ if ($inc){
     $consulta = "SELECT * FROM experiencies";
     $resultado = mysqli_query($conex,$consulta);
     if ($resultado){
-        while($row = $resultado=>fetch_array()){
+        while($row = $resultado->fetch_array()){
             $id = $row['id'];
             $titol = $row['titol'];
             $img = $row['img'];
@@ -26,6 +26,7 @@ if ($inc){
                     </p>
                 </div>
             </div>
+<?php
         }
     }
 }

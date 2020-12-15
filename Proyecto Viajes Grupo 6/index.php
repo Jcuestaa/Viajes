@@ -49,7 +49,7 @@
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="#contact">Contáctanos</a></li>
                     <li><a id="login">Login</a></li>
                 </ul>
@@ -61,8 +61,8 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container" data-aos="fade-up">
-            <h1>Welcome to Squad</h1>
-            <h2>We are team of talanted designers making websites with Bootstrap</h2>
+            <h1>Benvingut</h1>
+            <h2>PAGINA DE VIAJES PROYECTO TRANSVERSAL</h2>
             <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
         </div>
     </section><!-- End Hero -->
