@@ -26,6 +26,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.exp{
+  border: 2px solid lightgrey;
+}
+
+.rowa{
+    padding-top: 70px !important;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
