@@ -83,10 +83,7 @@
         <section id="services" class="services">
             <div class="container">
 
-                <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-                    <h2>Services</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
+                
 
                 <div class="row">
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -169,7 +166,12 @@
             </div>
         </section><!-- End Counts Section -->
 
+<<<<<<< HEAD
         
+=======
+    
+
+>>>>>>> 5841293beefba7d99c3e959adfd007a8a05e664c
         <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials section-bg">
             <div class="container">
