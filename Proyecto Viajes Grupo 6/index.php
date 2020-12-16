@@ -166,12 +166,6 @@
             </div>
         </section><!-- End Counts Section -->
 
-<<<<<<< HEAD
-        
-=======
-    
-
->>>>>>> 5841293beefba7d99c3e959adfd007a8a05e664c
         <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials section-bg">
             <div class="container">
