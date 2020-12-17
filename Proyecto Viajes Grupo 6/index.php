@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Squadfree Bootstrap Template - Index</title>
+    <title>ViajesEXP</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -69,112 +69,29 @@
 
     <main id="main">
         <!-- Hago prueba de carga de datos SQL-->
+        <section id="services" class="services">
+        <div class="container">
 
+                <div class="row">
+
+               
         <?php
 
         include ("mostrarexp.php");
 
         ?>
+                </div>
+        </div>
+        </section>
         
- 
-        <!-- Acaba mi prueba -->
-
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
-            <div class="container">
-
-                
-
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up">
-                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon"><i class="bx bx-file"></i></div>
-                            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <div class="icon"><i class="bx bx-tachometer"></i></div>
-                            <h4 class="title"><a href="">Magni Dolores</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <div class="icon"><i class="bx bx-world"></i></div>
-                            <h4 class="title"><a href="">Nemo Enim</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Services Section -->
-
-        <!-- ======= Counts Section ======= -->
-        <section id="counts" class="counts  section-bg">
-            <div class="container">
-
-                <div class="row no-gutters">
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="icofont-simple-smile"></i>
-                            <span data-toggle="counter-up">232</span>
-                            <p><strong>Happy Clients</strong> consequuntur quae</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="icofont-document-folder"></i>
-                            <span data-toggle="counter-up">521</span>
-                            <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="icofont-live-support"></i>
-                            <span data-toggle="counter-up">1,463</span>
-                            <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="icofont-users-alt-5"></i>
-                            <span data-toggle="counter-up">15</span>
-                            <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Counts Section -->
-
-    
 
         <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials section-bg">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-                    <h2>Testimonials</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <h2>Nuestros Testimonios</h2>
+                    <p>Nuestros clienes muestran sus reseñas sobre las diversas experiencias que ofrecemos!</p>
                 </div>
 
                 <div class="owl-carousel testimonials-carousel">
@@ -182,58 +99,33 @@
                     <div class="testimonial-item" data-aos="fade-up">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                            Nada mejor que una buena ruta y encima a caballo...Que más se puede pedir!
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        <h3>Aitor Martínez</h3>
                     </div>
 
                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            Increíbles sensaciones en la moto acuatica, sin duda repetiré, adrenalina pura!
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>l
                         </p>
                         <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
+                        <h3>Marc Ortega</h3>
+
                     </div>
 
                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                            The walk by Montjuic was pretty awesome, nice views and probably we will repeat!
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
+                        <h3>Warren Buffet</h3>
                     </div>
-
-                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
-                    </div>
-
-                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
-                    </div>
-
                 </div>
 
             </div>
