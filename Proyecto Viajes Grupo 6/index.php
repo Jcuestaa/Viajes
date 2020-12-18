@@ -23,7 +23,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
@@ -33,6 +33,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+    <script src="./assets/js/popup.js"></script>
 </head>
 
 <body>
@@ -56,6 +57,24 @@
             </nav><!-- .nav-menu -->
 
         </div>
+        <div class="contenedor">
+            <div class="overlay" id="overlay">
+               <div class="popup" id="popup">
+                   <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                   <h3>REGISTRATE/LOGIN</h3>
+                   <h4>MATATAN</h4>
+                   <form action="">
+                       <div class="contenedor-inputs">
+                           <input type="text" placeholder="Nombre">
+                           <input type="email" placeholder="Correo">
+                       </div>
+                       <input type="submit" class="btn-submit" value="Resgistrarse">
+              
+                       <input type="submit" class="btn-submit2" value="Login">
+                   </form>
+                </div>
+            </div>
+        </div>
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
@@ -65,6 +84,7 @@
             <h2>PAGINA DE VIAJES PROYECTO TRANSVERSAL</h2>
             <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
         </div>
+        
     </section><!-- End Hero -->
 
     <main id="main">
