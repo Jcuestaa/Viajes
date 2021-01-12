@@ -34,6 +34,8 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
     <script src="./assets/js/popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
 </head>
 
 <body>
@@ -94,15 +96,39 @@
 
                 <div class="row">
 
-               
-        <?php
+         Categoria:
 
-        include ("mostrarexp.php");
+    <select name="" id="categoria">
+    <?php
+    $inc = include("con_db.php");
+    if ($inc){
+        $consulta = "SELECT * FROM categoria";
+        $resultado = mysqli_query($conex,$consulta);
+        if ($resultado){
+            while($row = $resultado->fetch_array()){
+                $id = $row['id'];
+                $nom = $row['nom'];
+                ?>
+                <option value="<?php echo $id;?>"><?php echo $nom; ?></option>
+                <?php
+            }
+        }   
+    }          
+    ?>
+    <option value="9999">Totes</option>
+    
 
-        ?>
-                </div>
+    </select>
+    
+    <input type="button" id="consulta" value="Consulta">
+    </br><h3>Experiencias</h3>
+    <div id="experiencias"></div> 
+    
+    
+            </div>
         </div>
         </section>
+
         
 
         <!-- ======= Testimonials Section ======= -->
@@ -275,5 +301,5 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script> 
-
+    <script src="./assets/js/experiencias.js"></script>                        
 </body></html>
