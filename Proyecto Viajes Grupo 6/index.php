@@ -86,14 +86,12 @@
     </section><!-- End Hero -->
 
     <main id="main">
-        <!-- Hago prueba de carga de datos SQL-->
+        <!-- Carga de datos en SQL-->
         <section id="services" class="services">
         <div class="container">
 
                 <div class="row">
-
-         Categoria:
-
+                <p>Categoria: <p> 
     <select name="" id="categoria">
     <?php
     $inc = include("con_db.php");
@@ -117,13 +115,13 @@
     </select>
     
     <input type="button" id="consulta" value="Consulta">
-    </br><h3>Experiencias</h3>
-    <div id="experiencias"></div> 
+    </br><h3> Experiencias</h3>
+    <div class="row" id="experiencias">
+        
+    </div> 
     
-    
-            </div>
-        </div>
-        </section>
+    </div>
+    </section>
 
         
 
