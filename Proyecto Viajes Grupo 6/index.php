@@ -59,7 +59,7 @@
                <div class="popup" id="popup">
                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
                    <h3>REGISTRATE/LOGIN</h3>
-                   <h4>MATATAN</h4>
+                   <h4></h4>
                    <form action="">
                        <div class="contenedor-inputs">
                            <input type="text" placeholder="Nombre">
