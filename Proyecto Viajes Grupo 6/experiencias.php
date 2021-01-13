@@ -16,10 +16,10 @@ try{
  }
 
 if ($_GET['cat']==9999){
-  $sql = "SELECT id, titol, descrip FROM experiencies";
+  $sql = "SELECT * FROM experiencies";
 }
 else{
-  $sql = "SELECT id, titol, descrip FROM experiencies  WHERE id_categoria=".$_GET['cat'];
+  $sql = "SELECT * FROM experiencies  WHERE id_categoria=".$_GET['cat'];
 }
 $stmt = $DBcon->prepare($sql);
 $stmt->execute();
