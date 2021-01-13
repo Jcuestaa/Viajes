@@ -27,12 +27,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: Squadfree - v2.3.0
-  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    
     <script src="./assets/js/popup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     
@@ -82,7 +77,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container" data-aos="fade-up">
-            <h1>Benvingut</h1>
+            <h1>Bienvenido</h1>
             <h2>PAGINA DE VIAJES PROYECTO TRANSVERSAL</h2>
             <img src="assets/img/avion.gif" alt="imagen">
             <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
