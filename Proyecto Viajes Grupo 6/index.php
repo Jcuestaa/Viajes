@@ -27,14 +27,24 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="./assets/js/popup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     
 </head>
 
 <body>
+ <!-- ==== PANTALLA DE CARGA ===== -->
+<div class="loader">
+    <img src="assets/img/avion.gif" alt="imagen">
+    </div>
 
+    <script type="text/javascript">
+            $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        });
+        </script>
+    
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-transparent">
         <div class="container d-flex align-items-center">
