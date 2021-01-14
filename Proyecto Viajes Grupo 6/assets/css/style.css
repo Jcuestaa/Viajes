@@ -759,6 +759,21 @@ section {
   }
 }
 
+/* GIF DE CARGA */
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 1000%;
+  width: 100%;
+  height: 500%;
+  z-index: 9999;
+  background: url('assets/img/avion.gif') 50% 50% no-repeat rgb(249,249,249);
+  padding-left: 740px;
+  padding-top: 400px;
+  opacity: .8;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
