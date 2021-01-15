@@ -27,6 +27,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="./assets/js/popup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -44,6 +45,45 @@
             $(".loader").fadeOut("slow");
         });
         </script>
+
+<!-- === PopUP cookies === -->
+<div id="div-cookies" style="display: none;">
+    Necesitamos usar cookies para que funcione todo, si permanece aquí acepta su uso, más información en
+    <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
+    y la
+    <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
+    <button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+        Acepto el uso de cookies
+    </button>
+</div>
+<style>
+#div-cookies {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -5px 15px gray;
+    padding: 7px;
+    text-align: center;
+    z-index: 99;
+}
+</style>
+<script>
+function checkAcceptCookies() {
+    if (localStorage.acceptCookies == 'true') {
+    } else {
+        $('#div-cookies').show();
+    }
+}
+function acceptCookies() {
+    localStorage.acceptCookies = 'true';
+    $('#div-cookies').hide();
+}
+$(document).ready(function() {
+    checkAcceptCookies();
+});
+</script>
     
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-transparent">
@@ -89,7 +129,6 @@
         <div class="hero-container" data-aos="fade-up">
             <h1>Bienvenido</h1>
             <h2>PAGINA DE VIAJES PROYECTO TRANSVERSAL</h2>
-            <img src="assets/img/avion.gif" alt="imagen">
             <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
         </div>
         
@@ -287,6 +326,7 @@
             <div class="credits">
             </div>
         </div>
+    
     </footer><!-- End Footer -->
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
