@@ -36,8 +36,9 @@ let datos = [];
                             <h4>${datos[index].titol}</h4>
                             <p>
                             ${datos[index].descrip}
-                            <button >${datos[index].cont_positiu}</button>
-                            ${datos[index].cont_negatiu}
+                            </br>
+                            <button class="like" id="${datos[index].id}"><img id="flike" src="./assets/img/like.jpg" height="30px" weight="30px">${datos[index].cont_positiu}</img></button> 
+                            <button class="like" id="${datos[index].id}"><img id="fdislike" src="./assets/img/dislike.jpg" height="30px" weight="30px">${datos[index].cont_negatiu}</img></button>
                             </p>
                             </div>
                             </div>`;
