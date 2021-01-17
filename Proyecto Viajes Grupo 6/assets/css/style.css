@@ -308,25 +308,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #BBBBBB;
 }
 
-.popup form .btn-submit{
-    padding: 0 10px;
-    height: 20px;
-    line-height: 20px;
-    border: none;
-    color: #fff;
-    background: #5E7DE3;
-    border-radius: 3px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    cursor: pointer;
-    transition: .3s ease all;
-    
-}
-
-.popup form .btn-submit:hover{
-    background: rgba(94,125,227, .9);
-}
-
 .popup form .btn-submit2{
     padding: 0 10px;
     height: 20px;
@@ -481,24 +462,6 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(94,125,227, .9);
 }
 
-.popup2 form .btn-submit12{
-  padding: 0 10px;
-  height: 20px;
-  line-height: 20px;
-  border: none;
-  color: #fff;
-  background: #5E7DE3;
-  border-radius: 3px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  cursor: pointer;
-  transition: .3s ease all;
-  
-}
-
-.popup2 form .btn-submit12:hover{
-  background: rgba(94,125,227, .9);
-}
 
 .popup2.active{
   opacity: 1;
@@ -542,8 +505,6 @@ h1, h2, h3, h4, h5, h6 {
       opacity: 1;
   }
 }
-
-
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
