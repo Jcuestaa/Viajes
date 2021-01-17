@@ -107,8 +107,7 @@ $(document).ready(function() {
             </nav><!-- .nav-menu -->
 
         </div>
-
-        <div class="contenedor">
+    <div class="contenedor">
             <div class="overlay" id="overlay">
                <div class="popup" id="popup">
                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
@@ -116,30 +115,32 @@ $(document).ready(function() {
                    <h4></h4>
                    <form action="">
                        <div class="contenedor-inputs">
-                       <input type="text" placeholder="Nombre" name="nomlogin" id="nomlogin">
-                       <input type="password" placeholder="Contraseña" name="contralogin" id="contralogin">
-                       </div>                     
+                           <input type="text" placeholder="Nombre">
+                           <input type="email" placeholder="Correo">
+                       </div>
+                       <input type="submit" class="btn-submit" value="Resgistrarse">
+              
+                       <input type="submit" class="btn-submit2" value="Login">
                    </form>
-                   <button type="submit" class="submitlogin" value="Iniciar Sesión">Login</button>
-
                 </div>
             </div>
         </div>
-
-        <div class="contenedor">
+        
+        <div class="contenedor2">
             <div class="overlay2" id="overlay2">
                <div class="popup2" id="popup2">
-                   <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                   <h3>REGISTRARSE</h3>
+                   <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup2"><i class="fas fa-times"></i></a>
+                   <h3>RESGISTRO</h3>
                    <h4></h4>
                    <form action="">
-                       <div class="contenedor-inputs">
-                       <input type="text" placeholder="Nombre" name="nomregistro" id="nomregistro">
-                       <input type="password" placeholder="Contraseña" name="contraregistro" id="contraregistro">
-                       </div>                     
+                       <div class="contenedor-inputs2">
+                           <input type="text" placeholder="Nombre">
+                           <input type="email" placeholder="Correo">
+                       </div>
+                       <input type="submit" class="btn-submit1" value="Resgistrarse">
+              
+                       <input type="submit" class="btn-submit12" value="Login">
                    </form>
-                   <button type="submit" class="submitregistro" value="Resgistrarse">Registrar</button>
-
                 </div>
             </div>
         </div>
