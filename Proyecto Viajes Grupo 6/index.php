@@ -101,7 +101,7 @@ $(document).ready(function() {
                     <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="#contact">Contáctanos</a></li>
                     <li><a id="login">Login</a></li>
-                    <li><a id="registro">Registro</a></li>
+                    <li><a id="registrar">Registro</a></li>
                 </ul>
             </nav><!-- .nav-menu -->
 
