@@ -30,8 +30,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="./assets/js/popup.js"></script>
+    <script src="./assets/js/popup2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/php/axio.js"></script>
 </head>
 
 <body>
@@ -100,25 +102,44 @@ $(document).ready(function() {
                     <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="#contact">Contáctanos</a></li>
                     <li><a id="login">Login</a></li>
+                    <li><a id="registro">Registro</a></li>
                 </ul>
             </nav><!-- .nav-menu -->
 
         </div>
+
         <div class="contenedor">
             <div class="overlay" id="overlay">
                <div class="popup" id="popup">
                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                   <h3>REGISTRATE/LOGIN</h3>
+                   <h3>LOGIN</h3>
                    <h4></h4>
                    <form action="">
                        <div class="contenedor-inputs">
-                           <input type="text" placeholder="Nombre">
-                           <input type="email" placeholder="Correo">
-                       </div>
-                       <input type="submit" class="btn-submit" value="Resgistrarse">
-              
-                       <input type="submit" class="btn-submit2" value="Login">
+                       <input type="text" placeholder="Nombre" name="nomlogin" id="nomlogin">
+                       <input type="password" placeholder="Contraseña" name="contralogin" id="contralogin">
+                       </div>                     
                    </form>
+                   <button type="submit" class="submitlogin" value="Iniciar Sesión">Login</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="overlay2" id="overlay2">
+               <div class="popup2" id="popup2">
+                   <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                   <h3>REGISTRARSE</h3>
+                   <h4></h4>
+                   <form action="">
+                       <div class="contenedor-inputs">
+                       <input type="text" placeholder="Nombre" name="nomregistro" id="nomregistro">
+                       <input type="password" placeholder="Contraseña" name="contraregistro" id="contraregistro">
+                       </div>                     
+                   </form>
+                   <button type="submit" class="submitregistro" value="Resgistrarse">Registrar</button>
+
                 </div>
             </div>
         </div>
