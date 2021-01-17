@@ -118,7 +118,6 @@ $(document).ready(function() {
                            <input type="text" placeholder="Nombre">
                            <input type="email" placeholder="Correo">
                        </div>
-                       <input type="submit" class="btn-submit" value="Resgistrarse">
               
                        <input type="submit" class="btn-submit2" value="Login">
                    </form>
@@ -137,9 +136,7 @@ $(document).ready(function() {
                            <input type="text" placeholder="Nombre">
                            <input type="email" placeholder="Correo">
                        </div>
-                       <input type="submit" class="btn-submit1" value="Resgistrarse">
-              
-                       <input type="submit" class="btn-submit12" value="Login">
+                       <input type="submit" class="btn-submit1" value="Registrarse">
                    </form>
                 </div>
             </div>
