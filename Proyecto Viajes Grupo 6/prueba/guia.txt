@@ -1,7 +1,0 @@
-crear usuario, experiencias
-borrar usuario, experiencias
-modificar usuario, experiencias
-filtrar por categorias y titulo
-comprobar si es admin
-añadir un like, dislike, reportado
-cuando sea admmin que pueda ver las experiencias reportadas y borrarlas hgvgvhgvhb
