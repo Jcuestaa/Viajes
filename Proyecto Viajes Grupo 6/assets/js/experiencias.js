@@ -47,7 +47,7 @@ let datos = [];
             document.getElementById("experiencias").innerHTML=htmlStr;
         }
 
-
+ 
 
         //CUANDO APRETO EL BOTON HAGO UNA LLAMADA A PHP
         document.getElementById("consulta").addEventListener("click", function(){
