@@ -32,7 +32,9 @@
     <script src="./assets/js/popup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="/php/axio.js"></script>
+    <script src="./php/axio.js"></script>
+    <script src="./assets/js/like.js"></script>
+    
 </head>
 
 <body>
