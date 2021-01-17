@@ -1,7 +1,7 @@
 <?php
 
 
-        error_reporting(-1);
+    error_reporting(-1);
 
 	ini_set('display_errors','On');
     require_once('user.php');
@@ -14,7 +14,7 @@
 
     $usuari -> selectlogin($nom_usuari, $contrasena); 
     
-    echo $usuari;
+    echo json_encode($usuarios);
     
     
     
